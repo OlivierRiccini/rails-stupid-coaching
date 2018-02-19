@@ -6,9 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <h1 class="main-title">WELCOME TO STUPID COACHING</h1>
+      <%= yield %>
+    </div>
   </body>
 </html>

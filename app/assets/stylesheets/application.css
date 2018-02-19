@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:400,700');
+
+body {
+  background: #272822;
+  background-size: cover;
+  font-family: 'Mukta Mahee', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main-title {
+  color: #f92672;
+  font-size: 50px;
+}
+
+#question-input {
+  width: 50%;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.question-submit {
+  height: 46px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 2px solid #a6e22e;
+  color: #fff;
+  background-color: #f92672;
+}
+
+.question-submit:hover {
+  border: 2px solid #f92672;
+  color: #fff;
+  background-color: #a6e22e;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.answer {
+  font-size: 30px;
+  color: #a6e22e;
+}
